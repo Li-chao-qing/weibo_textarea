@@ -1,0 +1,148 @@
+body{
+	font-family: '微软雅黑';
+	
+	margin:0;
+	background:#7777F5;
+
+}
+p{
+	margin: 0;
+}
+.fresh{
+	width: 800px;
+	height:180px;
+	background: white;
+	margin:0 auto;
+	padding: 15px 10px;
+	/*position: relative;*/
+}
+.weibo{
+	position: relative;
+
+	padding-top:50px;
+}
+#textarea{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 792px;
+	height: 100px;
+	border:1px solid #B7B7B7;
+	outline: none;
+}
+#zishu{
+	float:right;
+}
+#publish{
+	float: right;
+	display: inline-block;
+	padding: 5px 20px;
+	background:#FF7000;
+	opacity: 0.5;
+	border-radius: 5px;
+	color: white;
+}
+.clear{
+	clear:both;
+}
+.content{
+	width: 820px;
+	/*height:180px;*/
+	/*background: white;*/
+	margin:0 auto;
+	/*padding: 15px 10px;*/
+	/*padding-left: 30px;*/
+	margin-top: 10px;
+}
+.con{
+	padding-left:80px;
+	border: 1px solid #B7B7B7;
+	margin-bottom:10px;
+	position: relative;
+	background: white;
+}
+.toux{
+	width: 80px;
+
+	height:80px;
+	position: absolute;
+	left: 0 ;
+	top:0;
+	border-radius: 50%;
+	background: url(../images/tt.png);
+	background-size: cover;
+}
+.zan{
+	display: inline-block;
+	text-align: center;
+	line-height:20px;
+	padding-left:20px; 
+	width: 20px;
+	height:20px;
+	/*border: 1px solid #B7B7B7;*/
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	cursor: pointer;
+	background: url('../images/icon_03.gif') no-repeat 0 2px;
+}
+.zan:hover{
+	color: #FF7000;
+	background:  url('../images/icon_05.png') no-repeat 0 2px;
+}
+.neir{
+	padding: 10px 20px;
+	width: 600px;
+	min-height:100px;
+	/*border:1px solid #B7B7B7;*/
+}
+.ziji{
+	width: 193px;
+	height: 210px;
+	/*border:1px solid black;*/
+	background: white;
+	position: absolute;
+	right:60px;
+	top:50px;
+}
+.bg{
+	width:193px;
+	height: 85px;
+	background: url(../images/bg.jpg);
+	background-size: cover;
+}
+.yuan{
+	width: 80px;
+	height:80px;
+	border-radius: 50%;
+	background-image: url(../images/tt.jpg);
+	background-color:white;
+	background-size: cover;
+	border: 1px solid #ccc;
+	position: absolute;
+	left: 50px;
+	top:50px;
+}
+.list{
+	left: 10px;
+	top:10px;
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	border-radius: 50%;
+
+}
+#yi{
+	background:url("../images/nn.jpg");
+	background-size: cover;
+	
+}
+#er{
+	background:url("../images/nyi.jpg");
+	background-size: cover;
+	
+}
+#san{
+	background:url("../images/girl.jpg");
+	background-size: cover;
+	
+}
